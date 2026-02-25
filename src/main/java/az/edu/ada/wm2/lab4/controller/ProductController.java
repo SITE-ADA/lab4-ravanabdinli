@@ -11,6 +11,8 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
+@RestController
+@RequestMapping("/api/products")
 public class ProductController {
     private final ProductService productService;
 
