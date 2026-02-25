@@ -14,7 +14,6 @@ public class Product {
         this.id = UUID.randomUUID();
     }
 
-
     public Product(String productName, BigDecimal price, LocalDate expirationDate) {
         this.id = UUID.randomUUID();
         this.productName = productName;
@@ -29,8 +28,6 @@ public class Product {
         this.price = price;
         this.expirationDate = expirationDate;
     }
-
-
 
     public UUID getId() {
         return id;
